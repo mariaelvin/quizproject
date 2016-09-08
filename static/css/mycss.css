@@ -1,0 +1,35 @@
+body {
+	background-image: url("../classbg.jpg"); 
+	background-size: cover;
+}
+h1{
+	text-align: center;
+}
+p {
+	font-size: 16px
+}
+.wrapper {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.plate {
+	background: #FFF;
+}
+.col1 {
+	background: #bdd490;
+}
+.col-padding{
+	padding: 5px;
+
+}
+.jumbotext {
+	font-size: 90px;
+	text-align: center;
+}
+.border {
+	border-style: solid;
+	border-color: #ff0000;
+	border-width: 2px;
+}
