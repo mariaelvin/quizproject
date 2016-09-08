@@ -13,28 +13,28 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Fråga 1</h1>
+					<h1>Fråga {{ question_number }}</h1>
 				</div>
 			</div>		
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Första frågan</h2>
-					<p>Alla HTML-taggar är omslutna av vad?</p>
+					
+					<p>{{ question }}</p>
 				</div>		
 			<form>
 				<div class="row">
 					<div class="col-md-12 col-padding">
-						<p><input type="radio" name="answer" value="1"># och #</p>
+						<p><input type="radio" name="answer" value="1"> {{ answer1 }}</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 col-padding">
-						<p><input type="radio" name="answer" value="2">< och ></p>
+						<p><input type="radio" name="answer" value="2"> {{ answer2 }}</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 col-padding">
-						<p><input type="radio" name="answer" value="3">! och !</p>
+						<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p>
 					</div>
 				</div>
 				<div class="row">
