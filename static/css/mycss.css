@@ -23,11 +23,17 @@ p {
 .text_bottom{
 	vertical-align: bottom;
 }
+.text_center{
+	text-align: center;
+}
 .col-padding{
 	padding: 5px;
 }
 .col-margin{
 	margin: 5px
+}
+.quiz_text{
+	font-size: 30px;
 }
 .jumbotext {
 	font-size: 90px;
