@@ -13,13 +13,13 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Testa dina kunskaper i HTML</h1>
+					<h1>Testa dina kunskaper om {{ quiz.name }}</h1>
 				</div>
 			</div>		
 			<div class="row">
 				<div class="col-md-6 col-padding">
-					<h2>Testa dina HTML-kunskaper</h2>
-					<p>Hur vass är du på HTML efter kursen? Har det du lärt dig under kursens gång fastnat? Ta reda på det genom att starta detta quiz. Nu kör vi!</p>
+					<h2>Nu börjar det!</h2>
+					<p>{{ quiz.description }}</p>
 				</div>
 				<div class="col-md-6 col-padding">
 					<img src="/static/htmlbild.jpg" alt="Bilden föreställer lite html-kod" align="center" class="img-rounded" width="275"><br>
