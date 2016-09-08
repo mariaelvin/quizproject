@@ -22,7 +22,9 @@ p {
 }
 .col-padding{
 	padding: 5px;
-
+}
+.col-margin{
+	margin: 5px
 }
 .jumbotext {
 	font-size: 90px;

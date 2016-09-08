@@ -21,7 +21,6 @@
 					
 					<p>{{ question }}</p>
 				</div>		
-			<form>
 				<div class="row">
 					<div class="col-md-12 col-padding">
 						<p><input type="radio" name="answer" value="1"> {{ answer1 }}</p>
@@ -39,16 +38,14 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 col-padding">
-						<input class="btn btn-primary btn-lg btn-block" type="submit" value="Nästa fråga">
+						<button class="btn btn-primary btn-lg btn-block" type="button"><a href="{% url 'completed_page' quiz_number %}">Nästa</a></button>
 					</div>
 				</div>
-			</form>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
 </html>
-<a href="results.html">Till resultatsidan</a>
 </body>
 </html>
