@@ -23,7 +23,8 @@
 					<h3>Har du lärt dig något den här veckan?</h3>
 					<p>Här kan du testa på dina kunskaper i HTML, CSS och Python.</p>
 					{% for quiz in quizzes %}
-					<p>{{ quiz.name }}</p>
+						<p><a href="{% url 'quiz_page' quiz.quiz_number %}">
+							{{ quiz.name }}</a></p>
 					{% endfor %}
 				</div>		
 				<div class="col-md-6">
