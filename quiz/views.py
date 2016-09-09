@@ -37,7 +37,7 @@ def answer(request, quiz_number,question_number):
 	 saved_answers[question_number] = answer
 	 request.session[quiz_number] = saved_answers
 
-	 question_number = inte(question_number)
+	 question_number = int(question_number)
 	 return redirect("question_page", quiz_number, question_number + 1)
 
 def completed(request, quiz_number):
