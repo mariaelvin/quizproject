@@ -69,10 +69,7 @@ Vad är bootstrap?
 	Ett ramverk med färdiga CSS-regler
 	En webbserver
 	Ett hjälpprogram
-Vad är skillnaden på marginal och padding?
-	Marginalen ligger utanför
-	Marginalen ligger innanför
-	Det är ingen skillnad
+
 
 
 
