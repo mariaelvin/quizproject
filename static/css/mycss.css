@@ -26,14 +26,24 @@ p {
 .text_center{
 	text-align: center;
 }
+.text_right{
+	text-align: right;
+}
 .col-padding{
 	padding: 5px;
+}
+.col-padding10{
+	padding: 10px;
 }
 .col-margin{
 	margin: 5px
 }
+.square{
+	max-width: 300px;
+}
 .quiz_text{
 	font-size: 30px;
+	font-style: italic;
 }
 .jumbotext {
 	font-size: 90px;

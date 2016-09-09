@@ -1,0 +1,80 @@
+Med vilken tag gör du ett radbryt?
+	<br>
+	<a>
+	<ul>	
+Var visas texten i <title>-taggen?
+	I browsern
+	På sidan
+	Den visas inte
+Hur skrivs en kommentars-tagg?
+	<!-- kommentaren -->
+	<#-- kommentaren -->
+	<?-- kommentaren -->
+Vilken av följande är en lämplig mellanrubrik-tagg?
+	<h2>
+	<p>
+	<li>
+Vad står HTML för?
+	Hyper Text Markup Language
+	Hyper Text Mighty Language
+	Hyper Text Markup Lingo
+Vilken färg blir detta #FFFFFF?
+	Vit
+	Grön
+	Svart
+Vad är metadata?
+	Data (information) om data
+	Brödtext
+	Skräp
+Var placerar man metadata <meta> på en sida?
+	I <head>
+	I <body>
+	I <html>
+Vilken tagg nvänds för att dela upp text i stycken?
+	<p>
+	<span>
+	<par>
+Hur skriver man ut ett mellanslag i html-koden?
+	&nbsp;
+	&space;
+	&20%;
+
+---------------
+Vad betyder CSS?
+	Cascading Style Sheets
+	Creative Style Sheets
+	Colorful Style Sheets
+Vilken filändelse har en CSS-fil
+	.css
+	.cs
+	.cc
+Var i html-dokumentet anvisar man till en CSS-fil?
+	I <head>
+	I <body>
+	I slutet på sidan
+Vilken är korrekt CSS syntax?
+	body {color: black;}
+ 	{body;color:black;}
+ 	body:color=black;
+Hur skrivs en kommentar i en CSS-fil?
+ // kommentar //
+ /* kommentar  */
+ ' kommentar '
+
+Vilken CSS egenskap (preoperty) kontrollerar textstorleken?
+	font-size
+	font-style
+ 	text-size
+Vad är bootstrap?
+	Ett ramverk med färdiga CSS-regler
+	En webbserver
+	Ett hjälpprogram
+Vad är skillnaden på marginal och padding?
+	Marginalen ligger utanför
+	Marginalen ligger innanför
+	Det är ingen skillnad
+
+
+
+
+	

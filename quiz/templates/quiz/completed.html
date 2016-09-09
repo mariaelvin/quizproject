@@ -17,17 +17,25 @@
 				</div>
 			</div>		
 			<div class="row">
-				<div class="col-md-12 col-padding">
-					<p>Du fick</p>
-					<p class="jumbotext">{{ correct }}</p>
+				<div class="col-md-4 col-padding text_right">
+					<p text_bottom" class="text_bottom" ">Du fick</p>
+				</div>
+				<div class="col-md-4 col-padding">
+					<p class="jumbotext square ">{{ correct }}</p>
+				</div>
+				<div class="col-md-4 col-padding">
 					<p>av {{ total }}</p>
-					<p><a href="{% url 'start_page' %}">Till startsidan</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<center><a href="{% url 'start_page' %}" type="button" class="btn btn-primary btn-lg" >Testa ett annat quiz</a></center>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<img src="/static/meme.jpg" alt="Mimsen" >
-					<p align="right">© Copyright Maria Elvin 2016</p>
+					<span class="text_bottom small">© Copyright Maria Elvin 2016</span>
 				</div>
 			</div>
 		</div>
