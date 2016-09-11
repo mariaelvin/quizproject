@@ -23,11 +23,14 @@ img {
 .col1 {
 	background: #bdd490;
 }
-.col-padding{
-	padding: 5px;
+.col-padding {
+	padding: 15px;
 }
-.col-padding10{
+.col-padding10 {
 	padding: 10px;
+}
+.col-padding4 {
+	padding: 5px;
 }
 .col-margin{
 	margin: 5px
