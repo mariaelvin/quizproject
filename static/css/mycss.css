@@ -39,6 +39,9 @@ img {
 	display: inline-block;
     text-align: left;
 }
+.btn-max {
+	padding: 40px
+}
 .quiz_text{
 	font-size: 26px;
 }
