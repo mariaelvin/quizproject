@@ -18,26 +18,25 @@
 			</div>		
 			<div class="row">
 				<div class="col-md-4">
-				<p></p>
-					<p class="text_right">Du fick</p>
+				</div>
+				<div class="col-md-4 text_center">
+					<span class="">Du fick</span>
+					<span class="jumbotext">{{ correct }}</span>
+					<span class="">av {{ total }} rätt!</span>
 				</div>
 				<div class="col-md-4">
-					<p class="jumbotext text_center ">{{ correct }}</p>
-				</div>
-				<div class="col-md-4">
-				<p></p>
-					<p class="text_bottomright">av {{ total }}</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
+					<p></p>
 					<center><a href="{% url 'start_page' %}" type="button" class="btn btn-primary btn-lg">Testa ett annat quiz</a></center>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<img src="/static/meme.jpg" alt="Mimsen" >
-					<span class="text_bottom small">© Copyright Maria Elvin 2016</span>
+				<span class="small">Maria Elvin 2016, #Tjejerkodar i Barcelona</span>
 				</div>
 			</div>
 		</div>

@@ -8,6 +8,9 @@ h1{
 p {
 	font-size: 16px
 }
+img {
+	vertical-align: text-bottom;
+}
 .wrapper {
     background-color: #fff;
     max-width: 700px;
