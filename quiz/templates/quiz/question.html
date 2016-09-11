@@ -15,36 +15,38 @@
 				<div class="col-md-12">
 					<h1>Fråga {{ question_number }}</h1>
 				</div>
-			<div class="row">
-				<div class="col-md-6 col-padding10">
-					<p class="quiz_text">{{ question }}</p>
-				</div>
-				<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
-				 {% csrf_token %}
-				<div class="col-md-6 col-padding10">	
-					<div class="row">
-						<div class="col-md-12 col-padding10 text_bottom">
-							<p><input type="radio" name="answer" value="1"> {{ answer1 }}</p>
+				<div class="row">
+					<div class="col-md-6">
+						<p></p>
+						<p class="quiz_text square">{{ question }}</p>
+					</div>
+					<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
+					<div class="col-md-6 ">	
+						<div class="row">
+							<div class="col-md-12 text_bottom square">
+								<p></p>
+								{% csrf_token %}
+								<p><input type="radio" name="answer" value="1" checked> {{ answer1 }}</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text_bottom square">
+								<p><input type="radio" name="answer" value="2" > {{ answer2 }}</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text_bottom square">
+								<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 ">
+								<p></p>	
+								<button class="btn btn-primary btn-lg" type="submit">Nästa</button>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12 col-padding text_bottom">
-							<p><input type="radio" name="answer" value="2"> {{ answer2 }}</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 col-padding text_bottom">
-							<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 col-padding">
-							<button class="btn btn-primary btn-lg" type="submit">Nästa</button>
-						</div>
-						
-					</div>
-				</div>
-				</form>		
+					</form>	
 					<div class="row">
 						<div class="col-md-12">
 							<img src="/static/meme.jpg" alt="Mimsen" >
@@ -55,7 +57,5 @@
 			</div>
 		</div>
 	</div>
-</body>
-</html>
 </body>
 </html>

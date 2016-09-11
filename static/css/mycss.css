@@ -20,15 +20,6 @@ p {
 .col1 {
 	background: #bdd490;
 }
-.text_bottom{
-	vertical-align: bottom;
-}
-.text_center{
-	text-align: center;
-}
-.text_right{
-	text-align: right;
-}
 .col-padding{
 	padding: 5px;
 }
@@ -39,14 +30,26 @@ p {
 	margin: 5px
 }
 .square{
-	max-width: 300px;
+	display: inline-block;
+    text-align: left;
 }
 .quiz_text{
-	font-size: 30px;
-	font-style: italic;
+	font-size: 26px;
+}
+/*.text_bottomright{
+	text-align: bottom right;
+}*/
+.text_bottom{
+	text-align: bottom;
+}
+.text_center{
+	text-align: center;
+}
+.text_right{
+	text-align: right;
 }
 .jumbotext {
-	font-size: 90px;
+	font-size: 80px;
 	text-align: center;
 }
 .border {

@@ -12,24 +12,26 @@
 	<div class="wrapper">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 col-padding">
+				<div class="col-md-12">
 					<h1>Ditt resultat</h1>
 				</div>
 			</div>		
 			<div class="row">
-				<div class="col-md-4 col-padding text_right">
-					<p text_bottom" class="text_bottom" ">Du fick</p>
+				<div class="col-md-4">
+				<p></p>
+					<p class="text_right">Du fick</p>
 				</div>
-				<div class="col-md-4 col-padding">
-					<p class="jumbotext square ">{{ correct }}</p>
+				<div class="col-md-4">
+					<p class="jumbotext text_center ">{{ correct }}</p>
 				</div>
-				<div class="col-md-4 col-padding">
-					<p>av {{ total }}</p>
+				<div class="col-md-4">
+				<p></p>
+					<p class="text_bottomright">av {{ total }}</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<center><a href="{% url 'start_page' %}" type="button" class="btn btn-primary btn-lg" >Testa ett annat quiz</a></center>
+					<center><a href="{% url 'start_page' %}" type="button" class="btn btn-primary btn-lg">Testa ett annat quiz</a></center>
 				</div>
 			</div>
 			<div class="row">
