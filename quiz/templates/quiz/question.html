@@ -18,24 +18,24 @@
 				<div class="row">
 					<div class="col-md-6">
 						<p></p>
-						<p class="quiz_text square">{{ question }}</p>
+						<p class="quiz_text ">{{ question }}</p>
 					</div>
 					<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
 					<div class="col-md-6 ">	
 						<div class="row">
-							<div class="col-md-12 text_bottom square">
+							<div class="col-md-12 square">
 								<p></p>
 								{% csrf_token %}
 								<p><input type="radio" name="answer" value="1" checked> {{ answer1 }}</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-12 text_bottom square">
+							<div class="col-md-12 square">
 								<p><input type="radio" name="answer" value="2" > {{ answer2 }}</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-12 text_bottom square">
+							<div class="col-md-12 square">
 								<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p>
 							</div>
 						</div>
