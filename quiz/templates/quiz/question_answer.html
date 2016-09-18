@@ -39,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<p></p>
 						<p class="quiz_text ">{{ question }}</p>
 					</div>
-					<form action="{% url 'question_answer_page' quiz.quiz_number question_number %}" method="post">
+					<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
 					<div class="col-md-6 ">	
 						<div class="row">
 							<div class="col-md-12 square">
@@ -56,6 +56,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="row">
 							<div class="col-md-12 square">
 								<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p>
+							</div>
+						</div>
+							<div class="row">
+							<div class="col-md-12 ">
+							<h3>
+								{{answertext}}. Rätt svar var {{answer}}.
+							</h3>
 							</div>
 						</div>
 						<div class="row">
